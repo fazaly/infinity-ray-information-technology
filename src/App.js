@@ -1,12 +1,11 @@
-import Card from "./components/ContactUs/Card";
-import ContactUs from "./components/ContactUs/ContactUs";
-
-
+import { RouterProvider } from 'react-router-dom';
+import router from './Routes/Routes';
 function App() {
   return (
     <div>
-      <h1 className="text-2xl font-bold">Hi</h1>
-      <ContactUs></ContactUs>
+      <RouterProvider router={router}>
+
+      </RouterProvider>
     </div>
   );
 }
