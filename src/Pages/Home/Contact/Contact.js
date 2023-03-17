@@ -24,7 +24,7 @@ const Contact = () => {
     };
 
     return (
-        <section className="relative flex justify-center items-center overflow-visible w-full h-screen">
+        <section id='contact' className="relative flex justify-center items-center overflow-visible w-full h-screen">
             <div id="contact-container" className="w-full h-screen">
             </div>
             <div className="w-full h-screen absolute top-0 left-0 flex justify-center items-center lg:p-0 p-5">

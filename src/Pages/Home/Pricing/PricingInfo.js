@@ -2,7 +2,7 @@ import React from 'react';
 
 const PricingInfo = () => {
     return (
-        <div>
+        <section id='packages'>
             <div className="mx-auto mt-10 mb-10">
                 <div className="flex items-center ml-8 mb-20 lg:mt-0 md:mt-10 mt-10">
                     <div className="w-2 h-20 bg-[#4C8FFF] mr-2"></div>
@@ -17,7 +17,7 @@ const PricingInfo = () => {
                     <div className="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded-xl shadow-lg sm:items-center hover:shadow-purple-400">
                         <div className="absolute inset-x-0 top-0 flex justify-center -mt-4">
                             <div className="inline-block px-3 py-1 text-lg font-medium tracking-wider text-white uppercase rounded-full bg-[#4C8FFF]">
-                                40 Mbps
+                                20 Mbps
                             </div>
                         </div>
                         <div className="text-center">
@@ -150,7 +150,7 @@ const PricingInfo = () => {
                         <div>
                             <a
                                 href="/"
-                                className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-black focus:shadow-outline focus:outline-none"
+                                className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium text-white transition duration-200 rounded-full shadow-md bg-black"
                             >
                                 Buy Now
                             </a>
@@ -159,7 +159,7 @@ const PricingInfo = () => {
                     <div className="relative flex flex-col justify-between p-8 transition-shadow duration-300 bg-white border rounded-xl shadow-lg sm:items-center hover:shadow-purple-400">
                         <div className="absolute inset-x-0 top-0 flex justify-center -mt-4">
                             <div className="inline-block px-3 py-1 text-lg font-medium tracking-wider text-white uppercase rounded-full bg-[#4C8FFF]">
-                                40 Mbps
+                                60 Mbps
                             </div>
                         </div>
                         <div className="text-center">
@@ -221,7 +221,7 @@ const PricingInfo = () => {
                         <div>
                             <a
                                 href="/"
-                                className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-black focus:shadow-outline focus:outline-none"
+                                className="inline-flex items-center justify-center w-full h-12 px-6 mt-6 font-medium text-white transition duration-200 rounded-full shadow-md bg-black"
                             >
                                 Buy Now
                             </a>
@@ -230,10 +230,10 @@ const PricingInfo = () => {
 
                 </div>
                 <div className='item-center mt-8 text-center'>
-                    <button className='p-3 text-white bg-[#4C8FFF] hover:bg-[#1b5ed1] rounded-md'>Load More Pakage</button>
+                    <button className='p-3 text-white bg-[#4C8FFF] hover:bg-[#1b5ed1] rounded-md'>Load More Package</button>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

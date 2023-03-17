@@ -11,14 +11,14 @@ const Hero = () => {
     backgroundPosition: "center",
   };
   return (
-    <div style={myStyle}>
+    <div style={myStyle} id="home">
       <div className="w-full h-screen" id="heroBG">
         <div className="flex lg:flex-row justify-center md:flex-grow flex-col items-center h-full w-full">
           <img src={HEROIMG} alt="" className="lg:mr-36 mt-10"/>
           <div className="text-white lg:mt-0 md:mt-10 mt-10 lg:text-left md:text-left text-center lg:space-y-6 space-y-3 p-2">
             <p className="text-3xl font-semibold">Seamless</p>
             <p
-              className="lg:text-[90px] md:text-6xl text-5xl font-extrabold text-[#A93DFF]"
+              className="lg:text-6xl md:text-6xl text-5xl font-extrabold text-[#A93DFF]"
             >
               Connectivity
             </p>

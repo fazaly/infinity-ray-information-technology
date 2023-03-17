@@ -15,7 +15,7 @@ const Services = () => {
     backgroundPosition: "center",
   };
   return (
-    <div style={myStyle2} className="lg:mb-0 md:mb-10 mb-10 mt-10">
+    <div style={myStyle2} id="services" className="lg:mb-0 md:mb-10 mb-10 mt-10">
       <div className="w-full lg:h-screen flex flex-col justify-center items-start">
         <div className="flex items-center ml-8 mb-20 lg:mt-0 md:mt-10 mt-10">
           <div className="w-2 h-20 bg-[#4C8FFF] mr-2"></div>

@@ -31,52 +31,54 @@ const Navbar = () => {
             className="menu menu-compact list-none dropdown-content absolute right-4 top-16 mt-3 bg-white p-2 shadow rounded-box w-52"
           >
             <li>
-              <a>Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-            <a>Services</a>
+            <a href="/">Services</a>
           </li>
             <li>
-              <a>Packages</a>
+              <a href="/">Packages</a>
             </li>
             <li>
-              <a>Coverage</a>
+              <a href="/">Coverage</a>
             </li>
             <li>
-              <a>About</a>
+              <a href="/">About</a>
             </li>
             <li>
-              <a className="btn bg-[#4C8FFF] text-white pl-6 pr-6 border-none rounded-full hover:bg-white hover:text-[#4C8FFF]">
+              <a href="/" className="btn bg-[#4C8FFF] text-white pl-6 pr-6 border-none rounded-full hover:bg-white hover:text-[#4C8FFF]">
                 Contact
               </a>
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl bg-white rounded-full">
+        <a href="/" className="btn btn-ghost normal-case text-xl bg-white rounded-full">
           <img src={logo} alt="" className="w-14" />
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-white list-none">
           <li>
-            <a>Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a>Services</a>
+            <a href="#services">Services</a>
           </li>
           <li>
-            <a>Packages</a>
+            <a href="#packages">Packages</a>
           </li>
           <li>
-            <a>Coverage</a>
+            <a href="/">Coverage</a>
           </li>
           <li>
-            <a>About</a>
+            <a href="/">About</a>
           </li>
           <li>
-          <button id="button1" className="btn bg-[#4C8FFF] text-white pl-6 pr-6 border-none rounded-full hover:bg-white hover:text-[#4C8FFF]">
-            Contact
-          </button>
+            <a href="#contact">
+              <button id="button1" className="btn bg-[#4C8FFF] text-white pl-6 pr-6 border-none rounded-full hover:bg-white hover:text-[#4C8FFF]">
+                Contact
+              </button>
+            </a>
         </li>
         </ul>
       </div>
