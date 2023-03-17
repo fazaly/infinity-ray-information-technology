@@ -31,13 +31,13 @@ const Navbar = () => {
             className="menu menu-compact list-none dropdown-content absolute right-4 top-16 mt-3 bg-white p-2 shadow rounded-box w-52"
           >
             <li>
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-            <a href="/">Services</a>
+            <a href="#services">Services</a>
           </li>
             <li>
-              <a href="/">Packages</a>
+              <a href="#packages">Packages</a>
             </li>
             <li>
               <a href="/">Coverage</a>
@@ -46,7 +46,7 @@ const Navbar = () => {
               <a href="/">About</a>
             </li>
             <li>
-              <a href="/" className="btn bg-[#4C8FFF] text-white pl-6 pr-6 border-none rounded-full hover:bg-white hover:text-[#4C8FFF]">
+              <a href="#contact" className="btn bg-[#4C8FFF] text-white pl-6 pr-6 border-none rounded-full hover:bg-white hover:text-[#4C8FFF]">
                 Contact
               </a>
             </li>
