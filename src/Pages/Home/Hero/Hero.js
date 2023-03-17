@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="flex">
                 <div className="w-2 h-8 bg-[#A93DFF] mr-2 lg:block md:block hidden">
                 </div>
-              <p className="text-2xl mb-4">Infinity Ray information Technology Broadband</p>
+              <p className="text-2xl mb-4">Infinity Ray Information Technology Broadband</p>
             </div>
             <button className="btn bg-[#4C8FFF] text-white hover:bg-white hover:text-[#4C8FFF] border-none rounded-full pr-10 pl-10">Get Start</button>
           </div>
